@@ -1,0 +1,18 @@
+CURRENT_DIR: "/home/yangyu/focal_loss/"
+TRAIN_DIR: "balance/train.txt"
+EVAL_DIR: "eval/eval.txt"
+TEST_DIR: "data/test.txt"
+
+bert_model_path: "bert-base-chinese"
+
+checkpoint_path: /home/yangyu/focal_loss/checkpoint
+
+use_cuda: True
+
+LR: 0.00003
+EPOCH: 6
+batch_size: 1024
+
+categories:
+  - 正样本
+  - 负样本

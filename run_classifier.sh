@@ -1,0 +1,1 @@
+nohup python train.py > extreme_unbalance_with_focal_loss.log & 
